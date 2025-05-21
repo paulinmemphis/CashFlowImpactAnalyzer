@@ -1,0 +1,9 @@
+{
+  "globalHeaders": {
+    "x-frame-options": "ALLOW-FROM https://teams.microsoft.com",
+    "x-content-type-options": "nosniff"
+  },
+  "routes": [
+    { "route": "/*", "serve": "/index.html", "statusCode": 200 }
+  ]
+}

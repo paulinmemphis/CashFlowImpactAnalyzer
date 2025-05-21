@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "your-app-id",
+  "packageName": "com.example.cashflowimpact",
+  "developer": {
+    "name": "Your Name",
+    "websiteUrl": "https://yourcompany.com",
+    "privacyUrl": "https://yourcompany.com/privacy",
+    "termsOfUseUrl": "https://yourcompany.com/terms"
+  },
+  "name": { "short": "Cash Flow Impact Analyzer", "full": "Cash Flow Impact Analyzer for Teams" },
+  "description": {
+    "short": "Simulate and visualize cash flow impact of university transactions.",
+    "full": "A Teams tab that lets you simulate and visualize cash-flow impact of transactions, integrated with Excel and approval flows."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2a61c4",
+  "staticTabs": [
+    {
+      "entityId": "cashflowimpact",
+      "name": "Cash Flow Analyzer",
+      "contentUrl": "https://<your-azure-static-app-url>/",
+      "websiteUrl": "https://<your-azure-static-app-url>/",
+      "scopes": ["personal"]
+    }
+  ],
+  "validDomains": [
+    "<your-azure-static-app-url>"
+  ]
+}
