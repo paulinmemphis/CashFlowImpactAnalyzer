@@ -2,13 +2,13 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
   "manifestVersion": "1.16",
   "version": "1.0.0",
-  "id": "your-app-id",
+  "id": "c128cf57-411c-4e7f-ac19-39989e059375",
   "packageName": "com.example.cashflowimpact",
   "developer": {
-    "name": "Your Name",
-    "websiteUrl": "https://yourcompany.com",
-    "privacyUrl": "https://yourcompany.com/privacy",
-    "termsOfUseUrl": "https://yourcompany.com/terms"
+    "name": "Paul Thomas",
+    "websiteUrl": "https://louisiana.edu",
+    "privacyUrl": "https://louisiana.edu/privacy",
+    "termsOfUseUrl": "https://louisiana.edu/terms"
   },
   "name": { "short": "Cash Flow Impact Analyzer", "full": "Cash Flow Impact Analyzer for Teams" },
   "description": {
@@ -24,12 +24,12 @@
     {
       "entityId": "cashflowimpact",
       "name": "Cash Flow Analyzer",
-      "contentUrl": "https://<your-azure-static-app-url>/",
-      "websiteUrl": "https://<your-azure-static-app-url>/",
+      "contentUrl": "https://black-pebble-0af338b10.6.azurestaticapps.net",
+      "websiteUrl": "https://black-pebble-0af338b10.6.azurestaticapps.net",
       "scopes": ["personal"]
     }
   ],
   "validDomains": [
-    "<your-azure-static-app-url>"
+    "black-pebble-0af338b10.6.azurestaticapps.net"
   ]
 }

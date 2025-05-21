@@ -79,7 +79,7 @@ export default function App() {
   };
 
   const getExcel = async () => {
-    const url = await fetchLatestExcel("https://your.sharepoint.folder.url");
+    const url = await fetchLatestExcel("https://ullafayette-my.sharepoint.com/:f:/r/personal/c00001003_louisiana_edu/Documents/Cash%20flow?csf=1&web=1&e=hrWAIi");
     setFileUrl(url);
   };
 
